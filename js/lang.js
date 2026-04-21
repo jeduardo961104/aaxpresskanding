@@ -5,8 +5,12 @@ const translations = {
         "nav-careers": "Careers",
         "nav-team": "Meet the Team",
         "nav-contact": "Contact",
-        "hero-title": "We deliver packages for Amazon, we don't bring 'em back.",
-        "hero-subtitle": "We are an Amazon DSP building a culture of safety, speed, and progress. Join our team today.",
+        "hero-quote-1": "We deliver packages for Amazon, we don't bring 'em back... Yet,",
+        "hero-quote-1-author": "- Anthony Laury 2018",
+        "hero-quote-2": "... now we are bringing them back.",
+        "hero-quote-4": "Delivering packages for Amazon is a job, it’s my job to turn delivery into a career!",
+        "hero-quote-3": "- Anthony Laury 2026",
+        "hero-subtitle": "We are an Amazon DSP building a culture built on safety and efficiency with an eye on the future of logistic. Join our team today.",
         "btn-join": "Join Our Team",
         "btn-contact": "Contact Us",
         
@@ -42,7 +46,7 @@ const translations = {
         "safety-text": "We maintain strict adherence to A&A Xpress and Amazon rules. Each vehicle is equipped with Netradyne cameras and Geotab tracking to monitor driving behaviors, ensuring total safety on the road. We operate a metric-based performance culture.",
         
         "sec-careers-title": "Careers",
-        "careers-text": "We are looking for individuals with a positive attitude, whether with or without previous experience. At A&A Xpress, and our partner collision shop Revive Renew & Restore, we offer competitive benefits:",
+        "careers-text": "We are looking for individuals with a positive attitude, whether with or without previous experience. At A&A Xpress, we offer competitive benefits:",
         "car-payrate": "Starting at $21.25/hr",
         "car-pay": "Weekly Pay",
         "car-bonuses": "Performance Bonuses",
@@ -68,13 +72,13 @@ const translations = {
         "team-name-owner": "Anthony Laury",
         "team-role-owner": "Owner",
         "team-name-coowner": "Anita Easter",
-        "team-role-coowner": "Co-Owner",
+        "team-role-coowner": "Chief of Operations",
         "team-name-gm": "Larry Waldo",
         "team-role-gm": "General Manager",
         "team-name-om": "Jorge Reyes",
         "team-role-om": "Operations Manager",
         "team-name-hr": "Yvonne Easter",
-        "team-role-hr": "HR",
+        "team-role-hr": "HR Manager",
         "team-name-ha": "Alvaro Jaramillo",
         "team-role-ha": "HR Assistant",
 
@@ -83,8 +87,7 @@ const translations = {
         "contact-address-2": "DJX3 - 250 Busch Dr, Jacksonville, FL 32218",
         
         "pos-driver": "Delivery Driver",
-        "pos-dispatcher": "Dispatcher",
-        "shop-link": "Visit reviverenewrestoreinc.com ↗"
+        "pos-dispatcher": "Dispatcher"
     },
     es: {
         "nav-about": "Nuestra Historia",
@@ -92,8 +95,12 @@ const translations = {
         "nav-careers": "Empleos",
         "nav-team": "Conoce al Equipo",
         "nav-contact": "Contacto",
-        "hero-title": "We deliver packages for Amazon, we don't bring 'em back.",
-        "hero-subtitle": "Somos un Amazon DSP construyendo una cultura de seguridad, rapidez y progreso. Únete a nuestro equipo hoy.",
+        "hero-quote-1": "We deliver packages for Amazon, we don't bring 'em back... Yet,",
+        "hero-quote-1-author": "- Anthony Laury 2018",
+        "hero-quote-2": "... now we are bringing them back.",
+        "hero-quote-4": "Delivering packages for Amazon is a job, it’s my job to turn delivery into a career!",
+        "hero-quote-3": "- Anthony Laury 2026",
+        "hero-subtitle": "Somos un Amazon DSP desarrollando una cultura basada en la seguridad y la eficiencia con la mirada puesta en el futuro de la logística. Únete a nuestro equipo hoy.",
         "btn-join": "Únete al Equipo",
         "btn-contact": "Contáctanos",
         
@@ -129,7 +136,7 @@ const translations = {
         "safety-text": "Mantenemos un estricto cumplimiento de las normas de A&A Xpress y Amazon. Cada vehículo está equipado con cámaras Netradyne y rastreo Geotab para monitorear el manejo, garantizando total seguridad en la vía. Operamos con una cultura de desempeño basada en métricas.",
 
         "sec-careers-title": "Empleos",
-        "careers-text": "Buscamos personas con actitud positiva, con o sin experiencia. En A&A Xpress, y en nuestro taller afiliado Revive Renew & Restore, ofrecemos grandes beneficios:",
+        "careers-text": "Buscamos personas con actitud positiva, con o sin experiencia. En A&A Xpress, ofrecemos grandes beneficios:",
         "car-payrate": "Comenzando a $21.25/hr",
         "car-pay": "Pago Semanal",
         "car-bonuses": "Bonos por Desempeño",
@@ -155,13 +162,13 @@ const translations = {
         "team-name-owner": "Anthony Laury",
         "team-role-owner": "Owner",
         "team-name-coowner": "Anita Easter",
-        "team-role-coowner": "Co-Owner",
+        "team-role-coowner": "Chief of Operations",
         "team-name-gm": "Larry Waldo",
         "team-role-gm": "General Manager",
         "team-name-om": "Jorge Reyes",
         "team-role-om": "Operations Manager",
         "team-name-hr": "Yvonne Easter",
-        "team-role-hr": "HR",
+        "team-role-hr": "HR Manager",
         "team-name-ha": "Alvaro Jaramillo",
         "team-role-ha": "HR Assistant",
 
@@ -170,8 +177,7 @@ const translations = {
         "contact-address-2": "DJX3 - 250 Busch Dr, Jacksonville, FL 32218",
 
         "pos-driver": "Delivery Driver",
-        "pos-dispatcher": "Dispatcher",
-        "shop-link": "Visitar reviverenewrestoreinc.com ↗"
+        "pos-dispatcher": "Dispatcher"
     }
 };
 
