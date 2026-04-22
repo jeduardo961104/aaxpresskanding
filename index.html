@@ -82,15 +82,18 @@
             
             <!-- Quotes Block -->
             <div class="quotes-container" style="display:flex; flex-direction:column; gap: 0.35rem; margin-bottom: 2.5rem;">
-                <h1 class="hero-title glitch" data-i18n="hero-quote-1" style="font-size: clamp(1.8rem, 4vw, 3.2rem); margin-bottom: 0; word-spacing: 0.1rem; letter-spacing: 0.02em;">We deliver packages for Amazon, we don't bring 'em back... Yet!</h1>
+                <h1 class="hero-title glitch" data-i18n="hero-quote-1" style="font-size: clamp(1.8rem, 4vw, 3.2rem); margin-bottom: 0; word-spacing: 0.1rem; letter-spacing: 0.02em;">We deliver packages for Amazon, we don't bring 'em back.</h1>
                 <p class="hero-author fade-in text-muted" data-i18n="hero-quote-1-author" style="font-size: 1.05rem; font-weight: 300; font-style: italic; margin-top: 0.25rem; margin-bottom: 1.5rem; letter-spacing: 0.05em; opacity: 0.8;">- Anthony Laury 2018</p>
-                <h2 class="hero-title fade-in" data-i18n="hero-quote-2" style="font-size: clamp(1.4rem, 2.5vw, 2.2rem); color: var(--amz-orange); margin-bottom: 0; text-transform: uppercase; word-spacing: 0.1rem; letter-spacing: 0.03em;">Now, we are delivering and picking up packages from businesses and residential areas.</h2>
                 <h3 class="hero-subtitle fade-in font-weight-light" data-i18n="hero-quote-4" style="font-size: clamp(1.2rem, 2vw, 1.8rem); font-family: 'Outfit', sans-serif; font-style: italic; margin-top: 1rem; margin-bottom: 0;">"Delivering packages for Amazon is a job, it’s my job to turn delivery into a career!"</h3>
-                <p class="hero-author fade-in text-muted" data-i18n="hero-quote-3" style="font-size: 1.15rem; font-weight: 400; font-style: italic; margin-top: 0.5rem; letter-spacing: 0.05em; opacity: 0.9;">- Anthony Laury 2026</p>
+                <p class="hero-author fade-in text-muted" data-i18n="hero-quote-3" style="font-size: 1.15rem; font-weight: 400; font-style: italic; margin-top: 0.5rem; letter-spacing: 0.05em; opacity: 0.9;">- Anthony Laury 2024</p>
             </div>
             <div class="hero-buttons fade-in-delay">
                 <a href="#careers" class="btn btn-primary" data-i18n="btn-join">Join Our Team</a>
-                <a href="#contact" class="btn btn-secondary" data-i18n="btn-contact">Contáctanos</a>
+                <a href="https://www.indeed.com/cmp/A&A-Xpress-Inc./about" target="_blank" rel="noopener noreferrer" class="btn btn-secondary" style="display: inline-flex; align-items: center; justify-content: center; gap: 0.4rem; background: #003399; color: white; border-color: #003399;">
+                    <span data-i18n="btn-indeed">Apply on Indeed</span>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg>
+                </a>
+                <a href="#contact" class="btn btn-secondary" data-i18n="btn-contact" style="background: transparent; color: white; border-color: rgba(255,255,255,0.4);">Contáctanos</a>
             </div>
         </div>
     </header>
@@ -215,7 +218,13 @@
                                 </ul>
                             </div>
                             
-                            <a href="#contact" class="btn btn-primary" data-i18n="btn-apply" style="margin-top: auto;">Join the Team</a>
+                            <div style="display: flex; gap: 0.75rem; margin-top: auto; width: 100%;">
+                                <a href="#contact" class="btn btn-primary" data-i18n="btn-apply" style="flex: 1; text-align: center; padding: 1rem 0.5rem;">Join the Team</a>
+                                <a href="https://www.indeed.com/cmp/A&A-Xpress-Inc./about" target="_blank" rel="noopener noreferrer" class="btn btn-secondary" style="flex: 1; text-align: center; padding: 1rem 0.5rem; display: flex; align-items: center; justify-content: center; gap: 0.4rem; background: #003399; color: white;">
+                                    <span data-i18n="btn-indeed">Apply on Indeed</span>
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg>
+                                </a>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -291,8 +300,36 @@
                     </div>
                 </div>
                 
+                <!-- Lead Form -->
+                <div class="contact-form-container" style="max-width: 600px; margin: 3rem auto; background: var(--surface-color, rgba(255,255,255,0.05)); padding: 2.5rem; border-radius: var(--radius-md); box-shadow: var(--shadow-md);">
+                    <h3 data-i18n="form-title" style="margin-bottom: 1.5rem; color: var(--amz-orange);">Apply / Send Message</h3>
+                    <form action="https://formsubmit.co/hraaexpress@gmail.com" method="POST" style="display: flex; flex-direction: column; gap: 1rem; text-align: left;">
+                        <input type="hidden" name="_subject" value="New Lead from A&A Xpress Landing Page">
+                        <input type="hidden" name="_captcha" value="false">
+                        <div>
+                            <label for="name" data-i18n="form-name" style="display: block; margin-bottom: 0.5rem; font-size: 0.9rem; font-weight: 600;">Full Name</label>
+                            <input type="text" id="name" name="name" required style="width: 100%; padding: 0.8rem; border-radius: var(--radius-sm); border: 1px solid rgba(128,128,128,0.5); background: transparent; color: inherit; outline: none; font-family: inherit;">
+                        </div>
+                        <div style="display: flex; gap: 1rem;">
+                            <div style="flex: 1;">
+                                <label for="phone" data-i18n="form-phone" style="display: block; margin-bottom: 0.5rem; font-size: 0.9rem; font-weight: 600;">Phone Number</label>
+                                <input type="tel" id="phone" name="phone" required style="width: 100%; padding: 0.8rem; border-radius: var(--radius-sm); border: 1px solid rgba(128,128,128,0.5); background: transparent; color: inherit; outline: none; font-family: inherit;">
+                            </div>
+                            <div style="flex: 1;">
+                                <label for="email" data-i18n="form-email" style="display: block; margin-bottom: 0.5rem; font-size: 0.9rem; font-weight: 600;">Email Address</label>
+                                <input type="email" id="email" name="email" required style="width: 100%; padding: 0.8rem; border-radius: var(--radius-sm); border: 1px solid rgba(128,128,128,0.5); background: transparent; color: inherit; outline: none; font-family: inherit;">
+                            </div>
+                        </div>
+                        <div>
+                            <label for="message" data-i18n="form-msg" style="display: block; margin-bottom: 0.5rem; font-size: 0.9rem; font-weight: 600;">Message (Optional)</label>
+                            <textarea id="message" name="message" rows="3" style="width: 100%; padding: 0.8rem; border-radius: var(--radius-sm); border: 1px solid rgba(128,128,128,0.5); background: transparent; color: inherit; outline: none; resize: vertical; font-family: inherit;"></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary" data-i18n="form-submit" style="width: 100%; margin-top: 1rem; border: none; cursor: pointer; font-family: inherit;">Send Message</button>
+                    </form>
+                </div>
+                
                 <div class="copyright">
-                    <p>&copy; 2026 A&A Xpress Inc. Todos los derechos reservados.</p>
+                    <p data-i18n="footer-copy">© 2026 A&A Xpress Inc. Todos los derechos reservados.</p>
                 </div>
             </div>
         </section>

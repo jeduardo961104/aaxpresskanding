@@ -5,11 +5,10 @@ const translations = {
         "nav-careers": "Careers",
         "nav-team": "Meet the Team",
         "nav-contact": "Contact",
-        "hero-quote-1": "We deliver packages for Amazon, we don't bring 'em back... Yet!",
+        "hero-quote-1": "We deliver packages for Amazon, we don't bring 'em back.",
         "hero-quote-1-author": "- Anthony Laury 2018",
-        "hero-quote-2": "Now, we are delivering and picking up packages from businesses and residential areas.",
         "hero-quote-4": "Delivering packages for Amazon is a job, it’s my job to turn delivery into a career!",
-        "hero-quote-3": "- Anthony Laury 2026",
+        "hero-quote-3": "- Anthony Laury 2024",
         "hero-subtitle": "We are an Amazon DSP building a culture built on safety and efficiency with an eye on the future of logistic. Join our team today.",
         "btn-join": "Join Our Team",
         "btn-contact": "Contact Us",
@@ -60,6 +59,7 @@ const translations = {
         "car-training": "Paid training",
         "car-referral": "Referral program",
         "btn-apply": "Join the Team",
+        "btn-indeed": "Apply on Indeed",
         
         "req-title": "Requirements",
         "req-1": "Valid U.S. Driver's License",
@@ -87,7 +87,14 @@ const translations = {
         "contact-address-2": "DJX3 - 250 Busch Dr, Jacksonville, FL 32218",
         
         "pos-driver": "Delivery Driver",
-        "pos-dispatcher": "Dispatcher"
+        "pos-dispatcher": "Dispatcher",
+        "form-title": "Apply / Send Message",
+        "form-name": "Full Name",
+        "form-phone": "Phone Number",
+        "form-email": "Email Address",
+        "form-msg": "Message (Optional)",
+        "form-submit": "Send Message",
+        "footer-copy": "© 2026 A&A Xpress Inc. All rights reserved."
     },
     es: {
         "nav-about": "Nuestra Historia",
@@ -95,11 +102,10 @@ const translations = {
         "nav-careers": "Empleos",
         "nav-team": "Conoce al Equipo",
         "nav-contact": "Contacto",
-        "hero-quote-1": "We deliver packages for Amazon, we don't bring 'em back... Yet!",
+        "hero-quote-1": "We deliver packages for Amazon, we don't bring 'em back.",
         "hero-quote-1-author": "- Anthony Laury 2018",
-        "hero-quote-2": "Now, we are delivering and picking up packages from businesses and residential areas.",
         "hero-quote-4": "Delivering packages for Amazon is a job, it’s my job to turn delivery into a career!",
-        "hero-quote-3": "- Anthony Laury 2026",
+        "hero-quote-3": "- Anthony Laury 2024",
         "hero-subtitle": "Somos un Amazon DSP desarrollando una cultura basada en la seguridad y la eficiencia con la mirada puesta en el futuro de la logística. Únete a nuestro equipo hoy.",
         "btn-join": "Únete al Equipo",
         "btn-contact": "Contáctanos",
@@ -150,6 +156,7 @@ const translations = {
         "car-training": "Entrenamiento pagado",
         "car-referral": "Programa de referidos",
         "btn-apply": "Únete al Equipo",
+        "btn-indeed": "Aplicar en Indeed",
 
         "req-title": "Requisitos Mínimos",
         "req-1": "Licencia de conducir válida para EE. UU.",
@@ -177,7 +184,14 @@ const translations = {
         "contact-address-2": "DJX3 - 250 Busch Dr, Jacksonville, FL 32218",
 
         "pos-driver": "Delivery Driver",
-        "pos-dispatcher": "Dispatcher"
+        "pos-dispatcher": "Dispatcher",
+        "form-title": "Aplicar / Enviar Mensaje",
+        "form-name": "Nombre Completo",
+        "form-phone": "Número de Teléfono",
+        "form-email": "Correo Electrónico",
+        "form-msg": "Mensaje (Opcional)",
+        "form-submit": "Enviar Mensaje",
+        "footer-copy": "© 2026 A&A Xpress Inc. Todos los derechos reservados."
     }
 };
 
