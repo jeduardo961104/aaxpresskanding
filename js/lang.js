@@ -93,6 +93,7 @@ const translations = {
         "form-name": "Full Name",
         "form-phone": "Phone Number",
         "form-email": "Email Address",
+        "form-resume": "Resume / CV (Optional)",
         "form-msg": "Message (Optional)",
         "form-submit": "Send Message",
         "footer-copy": "© 2026 A&A Xpress Inc. All rights reserved."
@@ -191,6 +192,7 @@ const translations = {
         "form-name": "Nombre Completo",
         "form-phone": "Número de Teléfono",
         "form-email": "Correo Electrónico",
+        "form-resume": "Currículum / CV (Opcional)",
         "form-msg": "Mensaje (Opcional)",
         "form-submit": "Enviar Mensaje",
         "footer-copy": "© 2026 A&A Xpress Inc. Todos los derechos reservados."
