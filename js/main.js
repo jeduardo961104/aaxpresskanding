@@ -85,4 +85,21 @@ document.addEventListener('DOMContentLoaded', () => {
             nav.style.boxShadow = 'none';
         }
     });
+
+    // --- Basic Privacy / Anti-Inspect Measures ---
+    document.addEventListener('contextmenu', (e) => e.preventDefault()); // Block right-click
+    document.addEventListener('keydown', (e) => {
+        // Block F12
+        if (e.key === 'F12' || e.keyCode === 123) {
+            e.preventDefault();
+        }
+        // Block Ctrl+Shift+I (Inspect), Ctrl+Shift+J (Console), Ctrl+Shift+C (Element Inspect)
+        if (e.ctrlKey && e.shiftKey && (e.key === 'I' || e.key === 'i' || e.key === 'J' || e.key === 'j' || e.key === 'C' || e.key === 'c')) {
+            e.preventDefault();
+        }
+        // Block Ctrl+U (View Source)
+        if (e.ctrlKey && (e.key === 'U' || e.key === 'u')) {
+            e.preventDefault();
+        }
+    });
 });
