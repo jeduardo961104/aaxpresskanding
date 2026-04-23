@@ -286,12 +286,12 @@ input:checked + .slider:before {
 
 @media (max-width: 768px) {
     .hero {
-        background: linear-gradient(180deg, rgba(11,15,25,0.3) 0%, var(--bg-primary) 65%), url('../assets/hero-bg.jpg') top center / 180% auto no-repeat var(--bg-primary) !important;
+        background: linear-gradient(180deg, rgba(11,15,25,0.1) 0%, var(--bg-primary) 50%), url('../assets/hero-bg.jpg') top center / 220% auto no-repeat var(--bg-primary) !important;
         align-items: flex-end;
-        padding-bottom: 6rem;
+        padding-bottom: 5rem;
     }
     [data-theme="light"] .hero {
-        background: linear-gradient(180deg, rgba(255,255,255,0.4) 0%, var(--bg-primary) 65%), url('../assets/hero-bg.jpg') top center / 180% auto no-repeat var(--bg-primary) !important;
+        background: linear-gradient(180deg, rgba(255,255,255,0.2) 0%, var(--bg-primary) 50%), url('../assets/hero-bg.jpg') top center / 220% auto no-repeat var(--bg-primary) !important;
     }
 }
 
